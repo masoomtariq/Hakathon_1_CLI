@@ -19,10 +19,10 @@ Follow-up TODOs: None
 All development MUST strictly follow SDD-RI theory, emphasizing specification primacy and intelligence accumulation through reusable subagents and skills using the P+Q+P pattern.
 
 ### II. Testable Content Output
-All book content MUST be output in clear, testable Markdown/MDX format to ensure quality and facilitate automated validation.
+All book content MUST adhere to a Flesch-Kincaid grade level of 10-12, maintain an active voice in at least 75% of sentences, and avoid sentences exceeding 25 words by more than 10%. Content MUST also be free of colloquialisms, jargon without definition, and maintain a formal academic register, verifiable through linguistic analysis tools.
 
 ### III. Comprehensive Course Coverage
-Content MUST comprehensively cover all specified course modules, including ROS 2, Gazebo/Unity, NVIDIA Isaac, VLA, weekly breakdowns, and assessments.
+Content MUST align with the detailed curriculum outline located at `docs/curriculum.md`, ensuring all learning objectives for ROS 2, Gazebo/Unity, NVIDIA Isaac, VLA, weekly breakdowns, and assessments are met and demonstrable through accompanying practical examples and exercises.
 
 ### IV. Atomic Tasks & Checkpoints
 Development workflow MUST utilize atomic tasks and define clear checkpoints for measurable progress tracking and efficient iteration.
@@ -40,7 +40,10 @@ Development behavior MUST prioritize iterative refinement for clarity and explic
 Reusable skills and components MUST be created for core functionalities including content generation, Urdu translation, RAG querying, and personalization features.
 
 ### IX. Defined Success Criteria
-Project success is defined by: book deployment to GitHub Pages, accurate RAG chatbot responses, and full functionality of all bonus features.
+Project success is defined by: book deployment to Vercel, backend/Chatbot on the Hugging Face Spaces, accurate RAG chatbot responses, and full functionality of all features.
+
+### X. Verifiable Information and Citation Accuracy
+All factual claims within the book MUST be supported by cited, verifiable sources using IEEE style. All source material MUST be cross-referenced for accuracy against at least two independent, reputable sources.
 
 ## Additional Constraints
 
