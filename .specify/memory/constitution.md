@@ -1,55 +1,57 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: None -> 1.0.0
+List of modified principles: All 9 principles added/defined.
+Added sections: All Core Principles (9 of them), Additional Constraints, Development Workflow, Governance.
+Removed sections: None (placeholders were filled).
+Templates requiring updates:
+- .specify/templates/plan-template.md: ⚠ pending (Constitution Check section might need update to reflect new principles)
+- .specify/templates/spec-template.md: ⚠ pending (Might need updates to ensure alignment with new principles like "Testable Content Output" and "Specification-Driven Development")
+- .specify/templates/tasks-template.md: ⚠ pending (Task categorization might reflect new principle-driven task types)
+- .specify/templates/commands/sp.constitution.md: ✅ updated (no specific updates needed as it's a generic command execution)
+Follow-up TODOs: None
+-->
+# AI-native textbook with RAG chatbot embedded in the book for Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. SDD-RI Theory Adherence
+All development MUST strictly follow SDD-RI theory, emphasizing specification primacy and intelligence accumulation through reusable subagents and skills using the P+Q+P pattern.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Testable Content Output
+All book content MUST be output in clear, testable Markdown/MDX format to ensure quality and facilitate automated validation.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Comprehensive Course Coverage
+Content MUST comprehensively cover all specified course modules, including ROS 2, Gazebo/Unity, NVIDIA Isaac, VLA, weekly breakdowns, and assessments.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Atomic Tasks & Checkpoints
+Development workflow MUST utilize atomic tasks and define clear checkpoints for measurable progress tracking and efficient iteration.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Specification-Driven Development
+All development MUST be specification-driven. 'Vibe coding' is explicitly forbidden; every change MUST trace back to an approved specification.
 
-### [PRINCIPLE_6_NAME]
+### VI. Professional & Educational Tone
+The project's identity MUST maintain a professional and educational tone appropriate for an AI-native textbook.
 
+### VII. Iterative Clarity & Edge Case Handling
+Development behavior MUST prioritize iterative refinement for clarity and explicitly address edge cases, such as handling user-selected text within the RAG chatbot.
 
-[PRINCIPLE__DESCRIPTION]
+### VIII. Reusable Skills & Components
+Reusable skills and components MUST be created for core functionalities including content generation, Urdu translation, RAG querying, and personalization features.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### IX. Defined Success Criteria
+Project success is defined by: book deployment to GitHub Pages, accurate RAG chatbot responses, and full functionality of all bonus features.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Additional Constraints
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Technology stack requirements, compliance standards, deployment policies, etc.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Development Workflow
+
+Code review requirements, testing gates, deployment approval process, etc.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All PRs/reviews MUST verify compliance. Complexity MUST be justified.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-02-19 | **Last Amended**: 2026-02-19
