@@ -224,4 +224,4 @@ Simulating in the cloud works well, but controlling a real robot from a cloud in
 
 ## Course Content Structure (Specs/Requirements)
 
-Refer to [docs/structure.md](docs/structure.md).
+Refer to [structure.md](structure.md).
