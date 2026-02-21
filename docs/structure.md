@@ -2,11 +2,10 @@
 
 ### 1) Global Content Rules
 
-- Add a pre-course chapter before Module 1:
-	- **Chapter 0: Home / Preface / Thesis**
-	- Must include: introduction, overall learning objectives, prescribed reading and learning paths, suggested exercises.
-	- Target length: **1,200 to 1,800 words**.
-	- Target time: **30 to 60 minutes**.
+- Add a pre-course homepage/landing page before Module 1:
+	- **Home / Landing Page (Pre-Module)**
+	- Must include six sections in this order: Hero, Book Summary, Learning Outcomes, Quotes, Module Cards, and Reading/Learning Path (Roadmap) at the end.
+	- Purpose: introduction, overall learning orientation, and guided pathway into Module 1.
 - Every chapter must include:
 	- **Learning Objectives** (3 to 5 measurable outcomes).
 	- **Core Content** (theory + architecture diagram).
@@ -41,13 +40,15 @@ Each chapter should follow this sequence:
 
 ### 4) Course Chapter Map (Recommended)
 
-#### Chapter 0 (Pre-Module)
+#### Home / Landing Page (Pre-Module)
 
-- **Chapter 0: Home / Preface / Thesis** — **1,200 to 1,800 words**
-	- Introductory framing of Physical AI and embodied intelligence.
-	- Full-course learning objectives and roadmap.
-	- Prescribed reading/learning paths (prepared for future personalization).
-	- Suggested warm-up exercises.
+- **Home / Landing Page**
+	- Section 1: Hero (introductory framing of Physical AI and embodied intelligence).
+	- Section 2: Book Summary (what the learner will build and why it matters).
+	- Section 3: Learning Outcomes (full-course outcomes and expected competencies).
+	- Section 4: Quotes (motivational/vision statements aligned with embodied intelligence).
+	- Section 5: Module Cards (Module 1 to Module 4 overview and progression).
+	- Section 6: Reading/Learning Path (Roadmap) at the end (guided sequence and recommended entry path).
 
 #### Module 1: The Robotic Nervous System (ROS 2)
 
