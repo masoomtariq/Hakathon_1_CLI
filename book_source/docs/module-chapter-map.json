@@ -1,0 +1,55 @@
+
+{
+  "modules": [
+    {
+      "module_id": "module-1",
+      "title": "Introduction to AI",
+      "description": "An introductory module to Artificial Intelligence.",
+      "chapters": [
+        {
+          "chapter_id": "chapter-1-1",
+          "title": "What is AI?",
+          "description": "Definition and history of AI.",
+          "slug": "/docs/module-1/chapter-1-1",
+          "sidebar_position": 1,
+          "difficulty": "beginner",
+          "prerequisites": [],
+          "duration_minutes": 15,
+          "code_repo_url": "https://github.com/example/repo/module1/chapter1",
+          "status": "published"
+        },
+        {
+          "chapter_id": "chapter-1-2",
+          "title": "Types of AI",
+          "description": "Different categories and applications of AI.",
+          "slug": "/docs/module-1/chapter-1-2",
+          "sidebar_position": 2,
+          "difficulty": "beginner",
+          "prerequisites": ["chapter-1-1"],
+          "duration_minutes": 20,
+          "code_repo_url": "https://github.com/example/repo/module1/chapter2",
+          "status": "placeholder"
+        }
+      ]
+    },
+    {
+      "module_id": "module-2",
+      "title": "Machine Learning Fundamentals",
+      "description": "Core concepts of machine learning.",
+      "chapters": [
+        {
+          "chapter_id": "chapter-2-1",
+          "title": "Supervised Learning",
+          "description": "Introduction to supervised learning algorithms.",
+          "slug": "/docs/module-2/chapter-2-1",
+          "sidebar_position": 1,
+          "difficulty": "intermediate",
+          "prerequisites": ["module-1"],
+          "duration_minutes": 30,
+          "code_repo_url": "https://github.com/example/repo/module2/chapter1",
+          "status": "published"
+        }
+      ]
+    }
+  ]
+}
