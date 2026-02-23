@@ -23,7 +23,7 @@ Goal: Establish the basic Docusaurus project structure and foundational scripts/
 
 ### Tasks
 
-- [ ] T001 Create Docusaurus project scaffold at `book_source/` (Estimated Duration: 15-30 minutes)
+- [X] T001 Create Docusaurus project scaffold at `book_source/` (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: A new Docusaurus project structure exists under `book_source/`.
   - **Dependencies**: None
   - **Verifiable Output**: `book_source/` directory with `docusaurus.config.ts`, `src/`, `static/` etc.
@@ -35,31 +35,31 @@ Goal: Establish the basic Docusaurus project structure and foundational scripts/
   - **Verifiable Output**: Modified `book_source/docusaurus.config.ts` file.
   - **Justification**: Establishes the core configuration for the Docusaurus site.
 
-- [ ] T003 Create `book_source/scripts/setup-fonts.sh` as an executable script. (Estimated Duration: 15-30 minutes)
+- [X] T003 Create `book_source/scripts/setup-fonts.sh` as an executable script. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: `book_source/scripts/setup-fonts.sh` exists and is executable.
   - **Dependencies**: T001
   - **Verifiable Output**: Executable script file.
   - **Justification**: Provides a dedicated script for font setup, as per the spec.
 
-- [ ] T004 Create `book_source/scripts/setup.sh` as an executable script. (Estimated Duration: 15-30 minutes)
+- [X] T004 Create `book_source/scripts/setup.sh` as an executable script. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: `book_source/scripts/setup.sh` exists and is executable.
   - **Dependencies**: T001
   - **Verifiable Output**: Executable script file.
   - **Justification**: Centralizes the full project setup process, as per the spec.
 
-- [ ] T005 Create `book_source/src/css/custom.css` for custom styling. (Estimated Duration: 15-30 minutes)
+- [X] T005 Create `book_source/src/css/custom.css` for custom styling. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: `book_source/src/css/custom.css` exists.
   - **Dependencies**: T001
   - **Verifiable Output**: Empty `custom.css` file.
   - **Justification**: Provides the entry point for custom CSS overrides.
 
-- [ ] T006 Create `book_source/src/pages/index.tsx` for the homepage. (Estimated Duration: 15-30 minutes)
+- [X] T006 Create `book_source/src/pages/index.tsx` for the homepage. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: `book_source/src/pages/index.tsx` exists.
   - **Dependencies**: T001
   - **Verifiable Output**: Empty `index.tsx` file.
   - **Justification**: Establishes the main entry point for the site's homepage.
 
-- [ ] T007 Create `book_source/static/fonts` directory. (Estimated Duration: 15-30 minutes)
+- [X] T007 Create `book_source/static/fonts` directory. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: `book_source/static/fonts` directory exists.
   - **Dependencies**: T001
   - **Verifiable Output**: Empty directory.
@@ -73,7 +73,7 @@ Goal: Implement core components that are prerequisites for user story specific t
 
 ### Tasks
 
-- [ ] T008 Create initial `book_source/docs/module-chapter-map.json` (or YAML) with a sample module and chapter structure. (Estimated Duration: 15-30 minutes)
+- [X] T008 Create initial `book_source/docs/module-chapter-map.json` (or YAML) with a sample module and chapter structure. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: `book_source/docs/module-chapter-map.json` (or YAML) exists with valid structure.
   - **Dependencies**: T001
   - **Verifiable Output**: JSON/YAML file with sample data.
@@ -104,7 +104,7 @@ Goal: Have a functional Docusaurus site scaffold ready for content.
   - **Verifiable Output**: Successful build output.
   - **Justification**: Validates the initial Docusaurus setup, fulfilling `SC-001`.
 
-- [ ] T011 [US1] Verify the default Docusaurus homepage is accessible by running `npm run start` in `book_source/`. (Estimated Duration: 15-30 minutes)
+- [X] T011 [US1] Verify the default Docusaurus homepage is accessible by running `npm run start` in `book_source/`. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: The Docusaurus development server starts and the homepage loads in a browser.
   - **Dependencies**: T010
   - **Verifiable Output**: Accessible local web server.
