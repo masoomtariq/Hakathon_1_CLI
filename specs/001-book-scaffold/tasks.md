@@ -125,13 +125,13 @@ Goal: Content organization and sidebar navigation are automatically generated an
 
 ### Tasks
 
-- [ ] T012 [P] [US2] Generate Docusaurus documentation pages for all modules and chapters defined in `book_source/docs/module-chapter-map.json`. (Estimated Duration: 15-30 minutes)
+- [X] T012 [P] [US2] Generate Docusaurus documentation pages for all modules and chapters defined in `book_source/docs/module-chapter-map.json`. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: Markdown files are created for each module and chapter in the map.
   - **Dependencies**: T008
   - **Verifiable Output**: New markdown files in `book_source/docs/`.
   - **Justification**: This directly fulfills `FR-002` and `SC-002` by creating the content based on the map.
 
-- [ ] T013 [US2] Configure Docusaurus sidebar navigation to precisely reflect the structure and order of `book_source/docs/module-chapter-map.json`. (Estimated Duration: 15-30 minutes)
+- [X] T013 [US2] Configure Docusaurus sidebar navigation to precisely reflect the structure and order of `book_source/docs/module-chapter-map.json`. (Estimated Duration: 15-30 minutes)
   - **Acceptance Criteria**: The Docusaurus sidebar renders with modules and chapters in the exact order specified by the map.
   - **Dependencies**: T012
   - **Verifiable Output**: Functional sidebar matching the map.
